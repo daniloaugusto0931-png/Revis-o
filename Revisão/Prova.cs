@@ -12,6 +12,7 @@ namespace Revisão
         public string Disciplina { get; set; }
         public int Nota { get; set; }
         public List<string> Questoes { get; set; } = new List<string>();
+        public List<char> Gabarito { get; set; } = new List<char>();
         public void ExibirDados()
         {
             Console.WriteLine($"Prova: {Id}");
@@ -22,6 +23,14 @@ namespace Revisão
             {
                 Console.WriteLine($"- {item}");
 
+            }
+            Console.WriteLine("Gabarito");
+            int contador = 0;
+
+            foreach (char g in Gabarito)
+            {
+                contador++;
+                Console.WriteLine($"{contador} - {g}");
             }
 
         }

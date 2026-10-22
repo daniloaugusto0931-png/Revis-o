@@ -13,6 +13,9 @@ provaMatematica.Nota = 10;
 provaMatematica.Questoes.Add("1- Quanto é 2+2?");
 provaMatematica.Questoes.Add("2- Quanto é 5x5?");
 provaMatematica.Questoes.Add("3- Quanto é 20-15?");
+provaMatematica.Gabarito.Add('A');
+provaMatematica.Gabarito.Add('C');
+provaMatematica.Gabarito.Add('B');
 escola1.ExibirDados();
 provaMatematica.ExibirDados();
 
