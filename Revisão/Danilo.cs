@@ -20,6 +20,7 @@ namespace Revisão
             foreach (string aluno in Alunos)
             {
                 Console.WriteLine($"- {aluno}");
+                
             }
         }
     }
