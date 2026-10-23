@@ -9,6 +9,8 @@ namespace Revisão
     public class Danilo
     {
         public string Nome { get; set; }
+
+        public int Id { get; set; }
         public string Escola { get; set; }
         public List  <string> Alunos { get; set; }
         public List<string> Professores { get; set; }
